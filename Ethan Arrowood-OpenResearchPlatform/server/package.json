@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-fetch": "^2.5.7",
+    "dotenv": "^8.2.0",
+    "fastify": "^3.0.0-rc.3",
+    "fastify-cors": "^4.0.0",
+    "node-fetch": "^2.6.0",
+    "pino-pretty": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.2"
+  }
+}

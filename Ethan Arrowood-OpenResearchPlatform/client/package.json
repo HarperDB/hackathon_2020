@@ -1,0 +1,39 @@
+{
+  "name": "open-research-platform",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache",
+    "lint": "eslint --config .eslintrc \"**/*.ts?(x)\""
+  },
+  "keywords": [],
+  "author": "Ethan Arrowood <ethan.arrowood@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-icons": "^1.0.0-alpha4",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^6.0.0-alpha.4",
+    "react-router-dom": "^6.0.0-alpha.4"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "@typescript-eslint/eslint-plugin": "^2.32.0",
+    "@typescript-eslint/parser": "^2.32.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "parcel": "^2.0.0-nightly.266",
+    "sass": "^1.26.5",
+    "typescript": "^3.8.3"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}
